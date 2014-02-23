@@ -1,5 +1,5 @@
 //
-//  EPPZAppDelegate.h
+//  EPPZDraggableShapeNode.h
 //  SpriteKitDrag
 //
 //  Created by Borbás Geri on 2/23/14.
@@ -13,9 +13,14 @@
 //
 
 
-#import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
 
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+@interface EPPZDraggableShapeNode : SKShapeNode
+@property (nonatomic) CGPoint touchOffset;
+@property (nonatomic, weak) UITouch *touch;
+@property (nonatomic, readonly) BOOL isDragged;
+-(void)bindTouch:(UITouch*) touch;
+-(void)dragIfNeeded;
+-(void)unbindTouchIfNeeded:(UITouch*) touch;
 @end

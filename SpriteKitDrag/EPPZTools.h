@@ -1,21 +1,33 @@
 //
-//  EPPZAppDelegate.h
-//  SpriteKitDrag
+//  EPPZTools.h
+//  eppz!kit
 //
-//  Created by Borbás Geri on 2/23/14.
-//  Copyright (c) 2014 eppz! development, LLC.
+//  Created by Borbás Geri on 8/22/13.
+//  Copyright (c) 2013 eppz! development, LLC.
 //
-//  follow http://www.twitter.com/_eppz
+//  donate! by following http://www.twitter.com/_eppz
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 //  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+#import <Foundation/Foundation.h>
 
-#import <UIKit/UIKit.h>
 
+#define METHOD_LOGGING YES
+#define LOG_METHOD if (METHOD_LOGGING) NSLog(@"%@ %@", NSStringFromClass(self.class), NSStringFromSelector(_cmd))
+#define LOG LOG_METHOD;
+#define _LOG LOG // Alias.
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
-@end
+// Fake literal for NSSet.
+#define $(...) [NSSet setWithObjects:__VA_ARGS__, nil]
+
+void crash();
+
+typedef void (^EPPZRepeatBlock)();
+typedef void (^EPPZCounterBlock)(NSUInteger index);
+void repeat(NSUInteger until, EPPZRepeatBlock repeatBlock);
+void count(NSUInteger until, EPPZCounterBlock counterBlock);
+
+void getFontList();

@@ -1,5 +1,5 @@
 //
-//  EPPZAppDelegate.h
+//  UIColor+EPPZ.h
 //  SpriteKitDrag
 //
 //  Created by Borbás Geri on 2/23/14.
@@ -16,6 +16,10 @@
 #import <UIKit/UIKit.h>
 
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+@interface UIColor (EPPZ)
+
++(UIColor*)ivoryColor;
++(UIColor*)tealColor;
++(UIColor*)canaryYellowColor;
+
 @end

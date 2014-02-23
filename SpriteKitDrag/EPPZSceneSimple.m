@@ -1,5 +1,5 @@
 //
-//  EPPZAppDelegate.h
+//  EPPZSceneSimple.m
 //  SpriteKitDrag
 //
 //  Created by Borbás Geri on 2/23/14.
@@ -13,9 +13,46 @@
 //
 
 
-#import <UIKit/UIKit.h>
+#import "EPPZSceneSimple.h"
 
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+@interface EPPZSceneSimple ()
+@property (nonatomic, weak) SKNode *draggedNode;
+@end
+
+
+@implementation EPPZSceneSimple
+
+-(void)didMoveToView:(SKView*) view
+{
+    self.backgroundColor = [UIColor tealColor];
+    
+    CGFloat radius = 30.0;
+    CGFloat diameter = radius * 2.0;
+    CGPathRef centeredCircle = CGPathCreateWithEllipseInRect((CGRect){-radius, -radius, diameter, diameter}, NULL);
+    repeat(10, ^{
+        
+        SKShapeNode *node = [SKShapeNode new];
+        node.path = centeredCircle;
+        node.fillColor = [UIColor canaryYellowColor];
+        node.lineWidth = 0.0;
+        node.position = randomPointInFrame(self.view.bounds);
+        [self addChild:node];
+        
+    });
+}
+
+
+#pragma mark - Simple dragging
+
+-(void)touchesBegan:(NSSet*)touches withEvent:(UIEvent*) event
+{ self.draggedNode = [self nodeAtPoint:[[touches anyObject] locationInNode:self]]; }
+
+-(void)touchesMoved:(NSSet*) touches withEvent:(UIEvent*) event
+{ self.draggedNode.position = [[touches anyObject] locationInNode:self]; }
+
+-(void)touchesEnded:(NSSet*) touches withEvent:(UIEvent*) event
+{ self.draggedNode = nil; }
+
+
 @end

@@ -14,25 +14,23 @@
 		AEF2ACCF18BA990E000B2187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2ACCE18BA990E000B2187 /* main.m */; };
 		AEF2ACD318BA990E000B2187 /* EPPZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2ACD218BA990E000B2187 /* EPPZAppDelegate.m */; };
 		AEF2ACD618BA990E000B2187 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF2ACD418BA990E000B2187 /* Main_iPhone.storyboard */; };
-		AEF2ACD918BA990E000B2187 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF2ACD718BA990E000B2187 /* Main_iPad.storyboard */; };
 		AEF2ACDC18BA990E000B2187 /* EPPZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2ACDB18BA990E000B2187 /* EPPZViewController.m */; };
 		AEF2ACDE18BA990E000B2187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF2ACDD18BA990E000B2187 /* Images.xcassets */; };
-		AEF2ACE518BA990E000B2187 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF2ACE418BA990E000B2187 /* XCTest.framework */; };
-		AEF2ACE618BA990E000B2187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF2ACC218BA990E000B2187 /* Foundation.framework */; };
-		AEF2ACE718BA990E000B2187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF2ACC618BA990E000B2187 /* UIKit.framework */; };
-		AEF2ACEF18BA990E000B2187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEF2ACED18BA990E000B2187 /* InfoPlist.strings */; };
-		AEF2ACF118BA990E000B2187 /* SpriteKitDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2ACF018BA990E000B2187 /* SpriteKitDragTests.m */; };
+		AEF2ACFC18BA997E000B2187 /* EPPZSpriteKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2ACFB18BA997E000B2187 /* EPPZSpriteKitView.m */; };
+		AEF2ACFE18BA99EF000B2187 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF2ACFD18BA99EF000B2187 /* SpriteKit.framework */; };
+		AEF2AD0318BA9A55000B2187 /* EPPZSceneSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD0218BA9A55000B2187 /* EPPZSceneSimple.m */; };
+		AEF2AD0818BA9B82000B2187 /* EPPZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD0718BA9B82000B2187 /* EPPZTools.m */; };
+		AEF2AD0C18BA9C53000B2187 /* UIColor+EPPZKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD0B18BA9C53000B2187 /* UIColor+EPPZKit.m */; };
+		AEF2AD1018BA9C84000B2187 /* UIColor+EPPZ.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD0F18BA9C84000B2187 /* UIColor+EPPZ.m */; };
+		AEF2AD1618BA9D20000B2187 /* EPPZGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD1518BA9D20000B2187 /* EPPZGeometry.m */; };
+		AEF2AD1918BA9D33000B2187 /* EPPZRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD1818BA9D33000B2187 /* EPPZRandom.m */; };
+		AEF2AD1C18BA9EC7000B2187 /* EPPZSceneWithPhysics.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD1B18BA9EC7000B2187 /* EPPZSceneWithPhysics.m */; };
+		AEF2AD2018BAA14E000B2187 /* EPPZSceneSubclassing.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD1F18BAA14E000B2187 /* EPPZSceneSubclassing.m */; };
+		AEF2AD2818BAA6C3000B2187 /* EPPZSceneBindTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD2718BAA6C3000B2187 /* EPPZSceneBindTouch.m */; };
+		AEF2AD2C18BAB005000B2187 /* EPPZSceneMultitouch.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD2B18BAB005000B2187 /* EPPZSceneMultitouch.m */; };
+		AEF2AD3118BAB067000B2187 /* EPPZDraggableShapeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF2AD3018BAB067000B2187 /* EPPZDraggableShapeNode.m */; };
+		AEF2AD3318BABB85000B2187 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEF2AD3218BABB85000B2187 /* README.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AEF2ACE818BA990E000B2187 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEF2ACB718BA990E000B2187 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEF2ACBE18BA990E000B2187;
-			remoteInfo = SpriteKitDrag;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AEF2ACBF18BA990E000B2187 /* SpriteKitDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,15 +44,37 @@
 		AEF2ACD118BA990E000B2187 /* EPPZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPZAppDelegate.h; sourceTree = "<group>"; };
 		AEF2ACD218BA990E000B2187 /* EPPZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPZAppDelegate.m; sourceTree = "<group>"; };
 		AEF2ACD518BA990E000B2187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		AEF2ACD818BA990E000B2187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		AEF2ACDA18BA990E000B2187 /* EPPZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPZViewController.h; sourceTree = "<group>"; };
 		AEF2ACDB18BA990E000B2187 /* EPPZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPZViewController.m; sourceTree = "<group>"; };
 		AEF2ACDD18BA990E000B2187 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AEF2ACE318BA990E000B2187 /* SpriteKitDragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitDragTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF2ACE418BA990E000B2187 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AEF2ACEC18BA990E000B2187 /* SpriteKitDragTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitDragTests-Info.plist"; sourceTree = "<group>"; };
-		AEF2ACEE18BA990E000B2187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AEF2ACF018BA990E000B2187 /* SpriteKitDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitDragTests.m; sourceTree = "<group>"; };
+		AEF2ACFA18BA997E000B2187 /* EPPZSpriteKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSpriteKitView.h; sourceTree = "<group>"; };
+		AEF2ACFB18BA997E000B2187 /* EPPZSpriteKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSpriteKitView.m; sourceTree = "<group>"; };
+		AEF2ACFD18BA99EF000B2187 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		AEF2AD0118BA9A55000B2187 /* EPPZSceneSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSceneSimple.h; sourceTree = "<group>"; };
+		AEF2AD0218BA9A55000B2187 /* EPPZSceneSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSceneSimple.m; sourceTree = "<group>"; };
+		AEF2AD0618BA9B82000B2187 /* EPPZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZTools.h; sourceTree = "<group>"; };
+		AEF2AD0718BA9B82000B2187 /* EPPZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZTools.m; sourceTree = "<group>"; };
+		AEF2AD0918BA9B8C000B2187 /* EPPZKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPZKit.h; sourceTree = "<group>"; };
+		AEF2AD0A18BA9C53000B2187 /* UIColor+EPPZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EPPZKit.h"; sourceTree = "<group>"; };
+		AEF2AD0B18BA9C53000B2187 /* UIColor+EPPZKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EPPZKit.m"; sourceTree = "<group>"; };
+		AEF2AD0E18BA9C84000B2187 /* UIColor+EPPZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EPPZ.h"; sourceTree = "<group>"; };
+		AEF2AD0F18BA9C84000B2187 /* UIColor+EPPZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EPPZ.m"; sourceTree = "<group>"; };
+		AEF2AD1418BA9D20000B2187 /* EPPZGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZGeometry.h; sourceTree = "<group>"; };
+		AEF2AD1518BA9D20000B2187 /* EPPZGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZGeometry.m; sourceTree = "<group>"; };
+		AEF2AD1718BA9D33000B2187 /* EPPZRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZRandom.h; sourceTree = "<group>"; };
+		AEF2AD1818BA9D33000B2187 /* EPPZRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZRandom.m; sourceTree = "<group>"; };
+		AEF2AD1A18BA9EC7000B2187 /* EPPZSceneWithPhysics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSceneWithPhysics.h; sourceTree = "<group>"; };
+		AEF2AD1B18BA9EC7000B2187 /* EPPZSceneWithPhysics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSceneWithPhysics.m; sourceTree = "<group>"; };
+		AEF2AD1E18BAA14E000B2187 /* EPPZSceneSubclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSceneSubclassing.h; sourceTree = "<group>"; };
+		AEF2AD1F18BAA14E000B2187 /* EPPZSceneSubclassing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSceneSubclassing.m; sourceTree = "<group>"; };
+		AEF2AD2618BAA6C3000B2187 /* EPPZSceneBindTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSceneBindTouch.h; sourceTree = "<group>"; };
+		AEF2AD2718BAA6C3000B2187 /* EPPZSceneBindTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSceneBindTouch.m; sourceTree = "<group>"; };
+		AEF2AD2A18BAB005000B2187 /* EPPZSceneMultitouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSceneMultitouch.h; sourceTree = "<group>"; };
+		AEF2AD2B18BAB005000B2187 /* EPPZSceneMultitouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSceneMultitouch.m; sourceTree = "<group>"; };
+		AEF2AD2F18BAB067000B2187 /* EPPZDraggableShapeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZDraggableShapeNode.h; sourceTree = "<group>"; };
+		AEF2AD3018BAB067000B2187 /* EPPZDraggableShapeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZDraggableShapeNode.m; sourceTree = "<group>"; };
+		AEF2AD3218BABB85000B2187 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,19 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF2ACFE18BA99EF000B2187 /* SpriteKit.framework in Frameworks */,
 				AEF2ACC518BA990E000B2187 /* CoreGraphics.framework in Frameworks */,
 				AEF2ACC718BA990E000B2187 /* UIKit.framework in Frameworks */,
 				AEF2ACC318BA990E000B2187 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEF2ACE018BA990E000B2187 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEF2ACE518BA990E000B2187 /* XCTest.framework in Frameworks */,
-				AEF2ACE718BA990E000B2187 /* UIKit.framework in Frameworks */,
-				AEF2ACE618BA990E000B2187 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +95,8 @@
 		AEF2ACB618BA990E000B2187 = {
 			isa = PBXGroup;
 			children = (
+				AEF2AD3218BABB85000B2187 /* README.md */,
 				AEF2ACC818BA990E000B2187 /* SpriteKitDrag */,
-				AEF2ACEA18BA990E000B2187 /* SpriteKitDragTests */,
 				AEF2ACC118BA990E000B2187 /* Frameworks */,
 				AEF2ACC018BA990E000B2187 /* Products */,
 			);
@@ -95,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				AEF2ACBF18BA990E000B2187 /* SpriteKitDrag.app */,
-				AEF2ACE318BA990E000B2187 /* SpriteKitDragTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +113,7 @@
 		AEF2ACC118BA990E000B2187 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEF2ACFD18BA99EF000B2187 /* SpriteKit.framework */,
 				AEF2ACC218BA990E000B2187 /* Foundation.framework */,
 				AEF2ACC418BA990E000B2187 /* CoreGraphics.framework */,
 				AEF2ACC618BA990E000B2187 /* UIKit.framework */,
@@ -116,10 +127,7 @@
 			children = (
 				AEF2ACD118BA990E000B2187 /* EPPZAppDelegate.h */,
 				AEF2ACD218BA990E000B2187 /* EPPZAppDelegate.m */,
-				AEF2ACD418BA990E000B2187 /* Main_iPhone.storyboard */,
-				AEF2ACD718BA990E000B2187 /* Main_iPad.storyboard */,
-				AEF2ACDA18BA990E000B2187 /* EPPZViewController.h */,
-				AEF2ACDB18BA990E000B2187 /* EPPZViewController.m */,
+				AEF2ACFF18BA99FC000B2187 /* Main */,
 				AEF2ACDD18BA990E000B2187 /* Images.xcassets */,
 				AEF2ACC918BA990E000B2187 /* Supporting Files */,
 			);
@@ -137,22 +145,111 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEF2ACEA18BA990E000B2187 /* SpriteKitDragTests */ = {
+		AEF2ACFF18BA99FC000B2187 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				AEF2ACF018BA990E000B2187 /* SpriteKitDragTests.m */,
-				AEF2ACEB18BA990E000B2187 /* Supporting Files */,
+				AEF2AD0518BA9B6B000B2187 /* EPPZKit (copy) */,
+				AEF2ACDA18BA990E000B2187 /* EPPZViewController.h */,
+				AEF2ACDB18BA990E000B2187 /* EPPZViewController.m */,
+				AEF2ACD418BA990E000B2187 /* Main_iPhone.storyboard */,
+				AEF2AD0018BA9A06000B2187 /* SpriteKit view */,
 			);
-			path = SpriteKitDragTests;
+			name = Main;
 			sourceTree = "<group>";
 		};
-		AEF2ACEB18BA990E000B2187 /* Supporting Files */ = {
+		AEF2AD0018BA9A06000B2187 /* SpriteKit view */ = {
 			isa = PBXGroup;
 			children = (
-				AEF2ACEC18BA990E000B2187 /* SpriteKitDragTests-Info.plist */,
-				AEF2ACED18BA990E000B2187 /* InfoPlist.strings */,
+				AEF2AD0D18BA9C69000B2187 /* Colors */,
+				AEF2ACFA18BA997E000B2187 /* EPPZSpriteKitView.h */,
+				AEF2ACFB18BA997E000B2187 /* EPPZSpriteKitView.m */,
+				AEF2AD0418BA9A58000B2187 /* Simple */,
+				AEF2AD1D18BA9ECA000B2187 /* With physics */,
+				AEF2AD2118BAA151000B2187 /* Subclassing SKNode */,
+				AEF2AD2918BAA6C6000B2187 /* Bind touch */,
+				AEF2AD2D18BAB00A000B2187 /* Multitouch */,
 			);
-			name = "Supporting Files";
+			name = "SpriteKit view";
+			sourceTree = "<group>";
+		};
+		AEF2AD0418BA9A58000B2187 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD0118BA9A55000B2187 /* EPPZSceneSimple.h */,
+				AEF2AD0218BA9A55000B2187 /* EPPZSceneSimple.m */,
+			);
+			name = Simple;
+			sourceTree = "<group>";
+		};
+		AEF2AD0518BA9B6B000B2187 /* EPPZKit (copy) */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD0918BA9B8C000B2187 /* EPPZKit.h */,
+				AEF2AD0618BA9B82000B2187 /* EPPZTools.h */,
+				AEF2AD0718BA9B82000B2187 /* EPPZTools.m */,
+				AEF2AD1718BA9D33000B2187 /* EPPZRandom.h */,
+				AEF2AD1818BA9D33000B2187 /* EPPZRandom.m */,
+				AEF2AD1418BA9D20000B2187 /* EPPZGeometry.h */,
+				AEF2AD1518BA9D20000B2187 /* EPPZGeometry.m */,
+				AEF2AD0A18BA9C53000B2187 /* UIColor+EPPZKit.h */,
+				AEF2AD0B18BA9C53000B2187 /* UIColor+EPPZKit.m */,
+			);
+			name = "EPPZKit (copy)";
+			sourceTree = "<group>";
+		};
+		AEF2AD0D18BA9C69000B2187 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD0E18BA9C84000B2187 /* UIColor+EPPZ.h */,
+				AEF2AD0F18BA9C84000B2187 /* UIColor+EPPZ.m */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
+		AEF2AD1D18BA9ECA000B2187 /* With physics */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD1A18BA9EC7000B2187 /* EPPZSceneWithPhysics.h */,
+				AEF2AD1B18BA9EC7000B2187 /* EPPZSceneWithPhysics.m */,
+			);
+			name = "With physics";
+			sourceTree = "<group>";
+		};
+		AEF2AD2118BAA151000B2187 /* Subclassing SKNode */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD1E18BAA14E000B2187 /* EPPZSceneSubclassing.h */,
+				AEF2AD1F18BAA14E000B2187 /* EPPZSceneSubclassing.m */,
+			);
+			name = "Subclassing SKNode";
+			sourceTree = "<group>";
+		};
+		AEF2AD2918BAA6C6000B2187 /* Bind touch */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD2E18BAB054000B2187 /* Draggable shape node */,
+				AEF2AD2618BAA6C3000B2187 /* EPPZSceneBindTouch.h */,
+				AEF2AD2718BAA6C3000B2187 /* EPPZSceneBindTouch.m */,
+			);
+			name = "Bind touch";
+			sourceTree = "<group>";
+		};
+		AEF2AD2D18BAB00A000B2187 /* Multitouch */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD2A18BAB005000B2187 /* EPPZSceneMultitouch.h */,
+				AEF2AD2B18BAB005000B2187 /* EPPZSceneMultitouch.m */,
+			);
+			name = Multitouch;
+			sourceTree = "<group>";
+		};
+		AEF2AD2E18BAB054000B2187 /* Draggable shape node */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2AD2F18BAB067000B2187 /* EPPZDraggableShapeNode.h */,
+				AEF2AD3018BAB067000B2187 /* EPPZDraggableShapeNode.m */,
+			);
+			name = "Draggable shape node";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,24 +272,6 @@
 			productReference = AEF2ACBF18BA990E000B2187 /* SpriteKitDrag.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AEF2ACE218BA990E000B2187 /* SpriteKitDragTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AEF2ACF718BA990E000B2187 /* Build configuration list for PBXNativeTarget "SpriteKitDragTests" */;
-			buildPhases = (
-				AEF2ACDF18BA990E000B2187 /* Sources */,
-				AEF2ACE018BA990E000B2187 /* Frameworks */,
-				AEF2ACE118BA990E000B2187 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AEF2ACE918BA990E000B2187 /* PBXTargetDependency */,
-			);
-			name = SpriteKitDragTests;
-			productName = SpriteKitDragTests;
-			productReference = AEF2ACE318BA990E000B2187 /* SpriteKitDragTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,11 +281,6 @@
 				CLASSPREFIX = EPPZ;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "eppz! development, LLC";
-				TargetAttributes = {
-					AEF2ACE218BA990E000B2187 = {
-						TestTargetID = AEF2ACBE18BA990E000B2187;
-					};
-				};
 			};
 			buildConfigurationList = AEF2ACBA18BA990E000B2187 /* Build configuration list for PBXProject "SpriteKitDrag" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -222,7 +296,6 @@
 			projectRoot = "";
 			targets = (
 				AEF2ACBE18BA990E000B2187 /* SpriteKitDrag */,
-				AEF2ACE218BA990E000B2187 /* SpriteKitDragTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,18 +305,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF2ACD918BA990E000B2187 /* Main_iPad.storyboard in Resources */,
 				AEF2ACDE18BA990E000B2187 /* Images.xcassets in Resources */,
 				AEF2ACD618BA990E000B2187 /* Main_iPhone.storyboard in Resources */,
+				AEF2AD3318BABB85000B2187 /* README.md in Resources */,
 				AEF2ACCD18BA990E000B2187 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEF2ACE118BA990E000B2187 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEF2ACEF18BA990E000B2187 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,29 +319,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF2AD3118BAB067000B2187 /* EPPZDraggableShapeNode.m in Sources */,
+				AEF2AD2018BAA14E000B2187 /* EPPZSceneSubclassing.m in Sources */,
+				AEF2AD1018BA9C84000B2187 /* UIColor+EPPZ.m in Sources */,
+				AEF2AD1618BA9D20000B2187 /* EPPZGeometry.m in Sources */,
+				AEF2AD0C18BA9C53000B2187 /* UIColor+EPPZKit.m in Sources */,
+				AEF2AD1C18BA9EC7000B2187 /* EPPZSceneWithPhysics.m in Sources */,
+				AEF2AD2C18BAB005000B2187 /* EPPZSceneMultitouch.m in Sources */,
+				AEF2AD1918BA9D33000B2187 /* EPPZRandom.m in Sources */,
+				AEF2AD0818BA9B82000B2187 /* EPPZTools.m in Sources */,
 				AEF2ACCF18BA990E000B2187 /* main.m in Sources */,
+				AEF2AD0318BA9A55000B2187 /* EPPZSceneSimple.m in Sources */,
+				AEF2AD2818BAA6C3000B2187 /* EPPZSceneBindTouch.m in Sources */,
 				AEF2ACD318BA990E000B2187 /* EPPZAppDelegate.m in Sources */,
 				AEF2ACDC18BA990E000B2187 /* EPPZViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEF2ACDF18BA990E000B2187 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEF2ACF118BA990E000B2187 /* SpriteKitDragTests.m in Sources */,
+				AEF2ACFC18BA997E000B2187 /* EPPZSpriteKitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AEF2ACE918BA990E000B2187 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEF2ACBE18BA990E000B2187 /* SpriteKitDrag */;
-			targetProxy = AEF2ACE818BA990E000B2187 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AEF2ACCB18BA990E000B2187 /* InfoPlist.strings */ = {
@@ -293,22 +354,6 @@
 				AEF2ACD518BA990E000B2187 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		AEF2ACD718BA990E000B2187 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEF2ACD818BA990E000B2187 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		AEF2ACED18BA990E000B2187 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEF2ACEE18BA990E000B2187 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,6 +442,7 @@
 				GCC_PREFIX_HEADER = "SpriteKitDrag/SpriteKitDrag-Prefix.pch";
 				INFOPLIST_FILE = "SpriteKitDrag/SpriteKitDrag-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,49 +456,8 @@
 				GCC_PREFIX_HEADER = "SpriteKitDrag/SpriteKitDrag-Prefix.pch";
 				INFOPLIST_FILE = "SpriteKitDrag/SpriteKitDrag-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		AEF2ACF818BA990E000B2187 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteKitDrag.app/SpriteKitDrag";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SpriteKitDrag/SpriteKitDrag-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SpriteKitDragTests/SpriteKitDragTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AEF2ACF918BA990E000B2187 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteKitDrag.app/SpriteKitDrag";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SpriteKitDrag/SpriteKitDrag-Prefix.pch";
-				INFOPLIST_FILE = "SpriteKitDragTests/SpriteKitDragTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -475,14 +480,7 @@
 				AEF2ACF618BA990E000B2187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		AEF2ACF718BA990E000B2187 /* Build configuration list for PBXNativeTarget "SpriteKitDragTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEF2ACF818BA990E000B2187 /* Debug */,
-				AEF2ACF918BA990E000B2187 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

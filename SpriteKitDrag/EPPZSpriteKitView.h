@@ -1,5 +1,5 @@
 //
-//  EPPZAppDelegate.h
+//  EPPZSpriteKitView.h
 //  SpriteKitDrag
 //
 //  Created by Borbás Geri on 2/23/14.
@@ -14,8 +14,11 @@
 
 
 #import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
 
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+@interface EPPZSpriteKitView : SKView
+
+-(void)loadScene:(NSString*) sceneClassName;
+
 @end

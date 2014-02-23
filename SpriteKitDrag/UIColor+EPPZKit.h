@@ -1,5 +1,5 @@
 //
-//  EPPZAppDelegate.h
+//  UIColor+EPPZKit.h
 //  SpriteKitDrag
 //
 //  Created by Borbás Geri on 2/23/14.
@@ -14,8 +14,24 @@
 
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+#define RGB(r, g, b) [UIColor colorWithRed:(float)r / 255.0 green:(float)g / 255.0 blue:(float)b / 255.0 alpha:1.0]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(float)r / 255.0 green:(float)g / 255.0 blue:(float)b / 255.0 alpha:a]
+
+#define RGB_(r, g, b) [UIColor colorWithRed:r green:g blue:b alpha:1.0]
+#define RGBA_(r, g, b, a) [UIColor colorWithRed:r green:g blue:b alpha:a]
+
+
+@interface UIColor (EPPZKit)
+
+@property (nonatomic, readonly) CGFloat red;
+@property (nonatomic, readonly) CGFloat green;
+@property (nonatomic, readonly) CGFloat blue;
+@property (nonatomic, readonly) CGFloat alpha;
+
+-(UIColor*)colorWithAlpha:(CGFloat) alpha;
+-(UIColor*)blendWithColor:(UIColor*) color amount:(CGFloat) amount;
+
 @end

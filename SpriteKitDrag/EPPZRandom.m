@@ -1,21 +1,34 @@
 //
-//  EPPZAppDelegate.h
-//  SpriteKitDrag
+//  EPPZRandom.m
+//  eppz!kit
 //
-//  Created by Borbás Geri on 2/23/14.
-//  Copyright (c) 2014 eppz! development, LLC.
+//  Created by Borbás Geri on 11/24/13.
+//  Copyright (c) 2013 eppz! development, LLC.
 //
-//  follow http://www.twitter.com/_eppz
+//  donate! by following http://www.twitter.com/_eppz
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 //  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+#import "EPPZRandom.h"
 
-#import <UIKit/UIKit.h>
 
+float randomFloat()
+{
+    int size = NSIntegerMax;
+    return (float)(arc4random() % size) / (float)size;
+}
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
-@end
+float randomRoundedFloatInRange(float range)
+{
+    if (range <= 0) return 0.0;
+    return (float)(arc4random() % (int)range);
+}
+
+float randomIntegerInRange(int range)
+{
+    if (range <= 0) return 0;
+    return arc4random() % (int)range;
+}

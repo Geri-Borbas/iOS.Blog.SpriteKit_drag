@@ -1,5 +1,5 @@
 //
-//  EPPZAppDelegate.h
+//  EPPZSceneWithPhysics.h
 //  SpriteKitDrag
 //
 //  Created by Borbás Geri on 2/23/14.
@@ -13,9 +13,9 @@
 //
 
 
-#import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
+#import "UIColor+EPPZ.h"
 
 
-@interface EPPZAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+@interface EPPZSceneWithPhysics : SKScene
 @end
