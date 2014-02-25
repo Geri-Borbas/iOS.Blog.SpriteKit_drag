@@ -8,3 +8,7 @@ Sample code for the article [**5 approach to implement SpriteKit drag** at blog.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/eppz/blog.spritekit_drag/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/eppz/blog.spritekit_drag/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
