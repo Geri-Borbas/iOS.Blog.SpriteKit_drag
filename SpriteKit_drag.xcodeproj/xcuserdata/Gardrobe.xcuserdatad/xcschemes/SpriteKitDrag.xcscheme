@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AEF2ACBE18BA990E000B2187"
-               BuildableName = "SpriteKitDrag.app"
-               BlueprintName = "SpriteKitDrag"
-               ReferencedContainer = "container:SpriteKitDrag.xcodeproj">
+               BuildableName = "SpriteKit_drag.app"
+               BlueprintName = "SpriteKit_drag"
+               ReferencedContainer = "container:SpriteKit_drag.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "AEF2ACE218BA990E000B2187"
                BuildableName = "SpriteKitDragTests.xctest"
                BlueprintName = "SpriteKitDragTests"
-               ReferencedContainer = "container:SpriteKitDrag.xcodeproj">
+               ReferencedContainer = "container:SpriteKit_drag.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEF2ACBE18BA990E000B2187"
-            BuildableName = "SpriteKitDrag.app"
-            BlueprintName = "SpriteKitDrag"
-            ReferencedContainer = "container:SpriteKitDrag.xcodeproj">
+            BuildableName = "SpriteKit_drag.app"
+            BlueprintName = "SpriteKit_drag"
+            ReferencedContainer = "container:SpriteKit_drag.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEF2ACBE18BA990E000B2187"
-            BuildableName = "SpriteKitDrag.app"
-            BlueprintName = "SpriteKitDrag"
-            ReferencedContainer = "container:SpriteKitDrag.xcodeproj">
+            BuildableName = "SpriteKit_drag.app"
+            BlueprintName = "SpriteKit_drag"
+            ReferencedContainer = "container:SpriteKit_drag.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEF2ACBE18BA990E000B2187"
-            BuildableName = "SpriteKitDrag.app"
-            BlueprintName = "SpriteKitDrag"
-            ReferencedContainer = "container:SpriteKitDrag.xcodeproj">
+            BuildableName = "SpriteKit_drag.app"
+            BlueprintName = "SpriteKit_drag"
+            ReferencedContainer = "container:SpriteKit_drag.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
